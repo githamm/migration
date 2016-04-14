@@ -11,7 +11,7 @@ pointer-events: all;
 }
  
 .group path {
-fill-opacity: .5;
+fill-opacity: .8;
 }
  
 path.chord {
@@ -74,7 +74,7 @@ var svg = d3.select("body").append("svg")
 svg.append("circle")
 .attr("r", outerRadius);
  
-d3.csv("cities.csv", function(cities) {
+d3.csv("counties.csv", function(counties) {
 d3.json("migration.json", function(matrix) {
  
 // Compute the chord layout.
@@ -89,15 +89,15 @@ var group = svg.selectAll(".group")
  
 // Add a mouseover title.
 group.append("title").text(function(d, i) {
-//return cities[i].name + ": " + formatCurrency(d.value) + ",000" + " total AGI";
-return cities[i].name + " County";
+//return counties[i].name + ": " + formatCurrency(d.value) + ",000" + " total AGI";
+return counties[i].name + " County";
 });
  
 // Add the group arc.
 var groupPath = group.append("path")
 .attr("id", function(d, i) { return "group" + i; })
 .attr("d", arc)
-.style("fill", function(d, i) { return cities[i].color; });
+.style("fill", function(d, i) { return counties[i].color; });
  
 // Add a text label.
 var groupText = group.append("text")
@@ -106,7 +106,7 @@ var groupText = group.append("text")
  
 groupText.append("textPath")
 .attr("xlink:href", function(d, i) { return "#group" + i; })
-.text(function(d, i) { return cities[i].name; });
+.text(function(d, i) { return counties[i].name; });
  
 // Remove the labels that don't fit. :(
 groupText.filter(function(d, i) { return groupPath[0][i].getTotalLength() / 2 - 16 < this.getComputedTextLength(); })
@@ -117,16 +117,16 @@ var chord = svg.selectAll(".chord")
 .data(layout.chords)
 .enter().append("path")
 .attr("class", "chord")
-.style("fill", function(d) { return cities[d.source.index].color; })
+.style("fill", function(d) { return counties[d.source.index].color; })
 .attr("d", path);
  
 // Add an elaborate mouseover title for each chord.
  chord.append("title").text(function(d) {
- return cities[d.source.index].name
- + " → " + cities[d.target.index].name
+ return counties[d.source.index].name
+ + " → " + counties[d.target.index].name
  + ": " + formatCurrency(d.source.value + '000')
- + "\n" + cities[d.target.index].name
- + " → " + cities[d.source.index].name
+ + "\n" + counties[d.target.index].name
+ + " → " + counties[d.source.index].name
  + ": " + formatCurrency(d.target.value + '000');
  });
  
