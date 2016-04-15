@@ -13,8 +13,8 @@
 <p>The Internal Revenue Service tracks population migration between states and counties in the United States using income data from tax returns. This chart shows that data for migration between Colorado counties for 2013-14, the last year data is available. Hover over a county bar to highlight the migration between counties; hover over a band between two counties to show the amount of income (adjusted gross income on tax returns) that flowed between them. Size of the band indicates the amount of income. Scroll on the graphic to zoom (or double-click to zoom in, shift + double click to zoom out); click on the graphic to move it.</p>
 
     <script>
-    var width = 640,
-        height = 640,
+    var width = 850,
+        height = 850,
         outerRadius = Math.min(width, height) / 2 - 10,
         innerRadius = outerRadius - 24;
 
@@ -63,7 +63,7 @@
             // Add a mouseover title
             group.append("title").text(function(d, i) {
                 //return counties[i].name + ": " + formatCurrency(d.value) + ",000" + " total AGI";
-                return counties[i].name + " County";
+                return counties[i].name;
             });
 
             // Add the group arc
@@ -86,7 +86,7 @@
                     return "#group" + i;
                 })
                 .text(function(d, i) {
-                    return counties[i].name;
+                    return counties[i].abv;
                 });
 
             // Remove the labels that don't fit

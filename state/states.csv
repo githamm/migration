@@ -1,52 +1,52 @@
-name,color
-Alabama,#393b79
-Alaska,#5254a3
-Arizona,#6b6ecf
-Arkansas,#9c9ede
-California,#637939
-Colorado,#8ca252
-Connecticut,#b5cf6b
-Delaware,#cedb9c
-District of Columbia,#8c6d31
-Florida,#bd9e39
-Georgia,#e7ba52
-Hawaii,#e7cb94
-Idaho,#843c39
-Illinois,#ad494a
-Indiana,#d6616b
-Iowa,#e7969c
-Kansas,#7b4173
-Kentucky,#a55194
-Louisiana,#ce6dbd
-Maine,#de9ed6
-Maryland,#3182bd
-Massachusetts,#6baed6
-Michigan,#9ecae1
-Minnesota,#c6dbef
-Mississippi,#e6550d
-Missouri,#fd8d3c
-Montana,#fdae6b
-Nebraska,#fdd0a2
-Nevada,#31a354
-New Hampshire,#74c476
-New Jersey,#a1d99b
-New Mexico,#c7e9c0
-New York,#756bb1
-North Carolina,#9e9ac8
-North Dakota,#bcbddc
-Ohio,#dadaeb
-Oklahoma,#636363
-Oregon,#969696
-Pennsylvania,#bdbdbd
-Rhode Island,#d9d9d9
-South Carolina,#1f77b4
-South Dakota,#aec7e8
-Tennessee,#ff7f0e
-Texas,#ffbb78
-Utah,#2ca02c
-Vermont,#98df8a
-Virginia,#d62728
-Washington,#ff9896
-West Virginia,#9467bd
-Wisconsin,#c5b0d5
-Wyoming,#8c564b
+abv,name,color
+AL,Alabama,#393b79
+AK,Alaska,#5254a3
+AZ,Arizona,#6b6ecf
+AR,Arkansas,#9c9ede
+CA,California,#637939
+CO,Colorado,#8ca252
+CT,Connecticut,#b5cf6b
+DE,Delaware,#cedb9c
+DC,District of Columbia,#8c6d31
+FL,Florida,#bd9e39
+GA,Georgia,#e7ba52
+HI,Hawaii,#e7cb94
+ID,Idaho,#843c39
+IL,Illinois,#ad494a
+IN,Indiana,#d6616b
+IA,Iowa,#e7969c
+KS,Kansas,#7b4173
+KY,Kentucky,#a55194
+LA,Louisiana,#ce6dbd
+ME,Maine,#de9ed6
+MD,Maryland,#3182bd
+MA,Massachusetts,#6baed6
+MI,Michigan,#9ecae1
+MN,Minnesota,#c6dbef
+MS,Mississippi,#e6550d
+MO,Missouri,#fd8d3c
+MT,Montana,#fdae6b
+NE,Nebraska,#fdd0a2
+NV,Nevada,#31a354
+NH,New Hampshire,#74c476
+NJ,New Jersey,#a1d99b
+NM,New Mexico,#c7e9c0
+NY,New York,#756bb1
+NC,North Carolina,#9e9ac8
+ND,North Dakota,#bcbddc
+OH,Ohio,#dadaeb
+OK,Oklahoma,#636363
+OR,Oregon,#969696
+PA,Pennsylvania,#bdbdbd
+RI,Rhode Island,#d9d9d9
+SC,South Carolina,#1f77b4
+SD,South Dakota,#aec7e8
+TN,Tennessee,#ff7f0e
+TX,Texas,#ffbb78
+UT,Utah,#2ca02c
+VT,Vermont,#98df8a
+VA,Virginia,#d62728
+WA,Washington,#ff9896
+WV,West Virginia,#9467bd
+WI,Wisconsin,#c5b0d5
+WY,Wyoming,#8c564b
