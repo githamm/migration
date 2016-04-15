@@ -1,0 +1,51 @@
+header,
+footer,
+h1,
+p {
+    color: #333;
+    font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    margin: .3em 0 .1em 0;
+}
+
+footer {
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+svg {
+    font: 12px sans-serif;
+}
+
+#circle circle {
+    fill: none;
+    pointer-events: all;
+}
+
+.group path {
+    fill-opacity: .6;
+}
+
+path.chord {
+    stroke: #000;
+    stroke-width: .25px;
+}
+
+#circle:hover path.fade {
+    display: none;
+}
+
+#container {
+	width: 650px;
+	padding: 10px;
+}
