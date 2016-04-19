@@ -9,8 +9,8 @@
 
 <body>
 <div id = "container">
-<h1>Income Flow in Colorado</h1>
-<p>The Internal Revenue Service tracks population migration between states and counties in the United States using income data from tax returns. This chart shows that data for migration between Colorado counties for 2013-14, the last year data is available. Hover over a county bar to highlight the migration between counties; hover over a band between two counties to show the amount of income (adjusted gross income on tax returns) that flowed between them. Size of the band indicates the amount of income. Scroll on the graphic to zoom (or double-click to zoom in, shift + double click to zoom out); click on the graphic to move it.</p>
+<h1>Income Flow in the United States</h1>
+<p>The Internal Revenue Service tracks population migration between states and counties in the United States using income data from tax returns. This chart shows that data for migration between states for 2013-14, the last year data is available. Hover over a state bar to highlight the migration between states; hover over a band between two states to show the amount of income (adjusted gross income on tax returns) that flowed between them. Size of the band indicates the amount of income. Scroll on the graphic to zoom (or double-click to zoom in, shift + double click to zoom out); click on the graphic to move it.</p>
 
     <script>
     var width = 850,
@@ -122,6 +122,18 @@
         svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
     }
     </script>
+    </div>
+    <div id="legend">
+        <ul>
+            <li><li><div class="legend-box" id="new-england"></div>New England</li>
+            <li><div class="legend-box" id="mid-atlantic"></div>Mid-Atlantic</li>
+            <li><div class="legend-box" id="southeast"></div>Southeast</li>
+            <li><div class="legend-box" id="great-lakes"></div>Great Lakes</li>
+            <li><div class="legend-box" id="plains"></div>Plains</li>
+            <li><div class="legend-box" id="rocky-mountain"></div>Rocky Mountain</li>
+            <li><div class="legend-box" id="southwest"></div>Southwest</li>
+            <li><div class="legend-box" id="far-west"></div>Far West</li>
+        </ul>
     </div>
     <footer>
     <p>Source: <a href="https://www.irs.gov/uac/SOI-Tax-Stats-Migration-Data">Internal Revenue Service</a> / By Kevin Hamm, The Denver Post</p>

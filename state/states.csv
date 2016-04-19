@@ -1,52 +1,52 @@
 abv,name,color
-AL,Alabama,#005a32
-AK,Alaska,#9ebcda
-AZ,Arizona,#99000d
-AR,Arkansas,#238b45
-CA,California,#4d004b
-CO,Colorado,#67001f
-CT,Connecticut,#252525
-DE,Delaware,#084594
-DC,District of Columbia,#2171b5
-FL,Florida,#41ab5d
-GA,Georgia,#74c476
-HI,Hawaii,#8c96c6
-ID,Idaho,#980043
-IL,Illinois,#8c2d04
-IN,Indiana,#d94801
-IA,Iowa,#4a1486
-KS,Kansas,#6a51a3
-KY,Kentucky,#a1d99b
-LA,Louisiana,#c7e9c0
-ME,Maine,#525252
-MD,Maryland,#4292c6
-MA,Massachusetts,#737373
-MI,Michigan,#f16913
-MN,Minnesota,#807dba
-MS,Mississippi,#e5f5e0
-MO,Missouri,#9e9ac8
-MT,Montana,#ce1256
-NE,Nebraska,#bcbddc
-NV,Nevada,#810f7c
-NH,New Hampshire,#969696
-NJ,New Jersey,#6baed6
-NM,New Mexico,#cb181d
-NY,New York,#9ecae1
-NC,North Carolina,#f7fcf5
-ND,North Dakota,#dadaeb
-OH,Ohio,#fd8d3c
-OK,Oklahoma,#ef3b2c
-OR,Oregon,#88419d
-PA,Pennsylvania,#c6dbef
-RI,Rhode Island,#bdbdbd
-SC,South Carolina,#005a32
-SD,South Dakota,#efedf5
-TN,Tennessee,#238b45
-TX,Texas,#fb6a4a
-UT,Utah,#e7298a
-VT,Vermont,#d9d9d9
-VA,Virginia,#41ab5d
-WA,Washington,#8c6bb1
-WV,West Virginia,#74c476
-WI,Wisconsin,#fdae6b
-WY,Wyoming,#df65b0
+AL,Alabama,#92c5de
+AK,Alaska,#b2182b
+AZ,Arizona,#d6604d
+AR,Arkansas,#92c5de
+CA,California,#b2182b
+CO,Colorado,#f4a582
+CT,Connecticut,#2166ac
+DE,Delaware,#4393c3
+DC,District of Columbia,#4393c3
+FL,Florida,#92c5de
+GA,Georgia,#92c5de
+HI,Hawaii,#b2182b
+ID,Idaho,#f4a582
+IL,Illinois,#d1e5f0
+IN,Indiana,#fddbc7
+IA,Iowa,#fddbc7
+KS,Kansas,#fddbc7
+KY,Kentucky,#92c5de
+LA,Louisiana,#92c5de
+ME,Maine,#2166ac
+MD,Maryland,#4393c3
+MA,Massachusetts,#2166ac
+MI,Michigan,#d1e5f0
+MN,Minnesota,#fddbc7
+MS,Mississippi,#92c5de
+MO,Missouri,#fddbc7
+MT,Montana,#f4a582
+NE,Nebraska,#fddbc7
+NV,Nevada,#b2182b
+NH,New Hampshire,#2166ac
+NJ,New Jersey,#4393c3
+NM,New Mexico,#d6604d
+NY,New York,#4393c3
+NC,North Carolina,#92c5de
+ND,North Dakota,#fddbc7
+OH,Ohio,#d1e5f0
+OK,Oklahoma,#d6604d
+OR,Oregon,#b2182b
+PA,Pennsylvania,#4393c3
+RI,Rhode Island,#2166ac
+SC,South Carolina,#92c5de
+SD,South Dakota,#fddbc7
+TN,Tennessee,#92c5de
+TX,Texas,#d6604d
+UT,Utah,#f4a582
+VT,Vermont,#2166ac
+VA,Virginia,#92c5de
+WA,Washington,#b2182b
+WV,West Virginia,#92c5de
+WI,Wisconsin,#d1e5f0
+WY,Wyoming,#f4a582

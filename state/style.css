@@ -23,6 +23,10 @@ p {
     line-height: 1.5em;
 }
 
+ul {
+    list-style-type: none;
+}
+
 svg {
     font: 12px sans-serif;
 }
@@ -33,12 +37,12 @@ svg {
 }
 
 .group path {
-    fill-opacity: .6;
+    fill-opacity: .7;
 }
 
 path.chord {
     stroke: #000;
-    stroke-width: .25px;
+    stroke-width: 0px;
 }
 
 #circle:hover path.fade {
@@ -48,4 +52,48 @@ path.chord {
 #container {
 	width: 650px;
 	padding: 10px;
+}
+
+#legend {
+    font-family: "Helvetica", sans-serif;
+    font-size: 14px;
+}
+
+.legend-box {
+    width: 35px;
+    height: 16px;
+    margin-right: 5px;
+    float: left;
+}
+
+#new-england {
+    background-color: #2166ac;
+}
+
+#mid-atlantic {
+    background-color: #4393c3;
+}
+
+#southeast {
+    background-color: #92c5de;
+}
+
+#great-lakes {
+    background-color: #d1e5f0;
+}
+
+#plains {
+    background-color: #fddbc7;
+}
+
+#rocky-mountain {
+    background-color: #f4a582;
+}
+
+#southwest {
+    background-color: #d6604d;
+}
+
+#far-west {
+    background-color: #b2182b;
 }
